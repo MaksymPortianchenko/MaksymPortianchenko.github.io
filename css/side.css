@@ -17,6 +17,7 @@
   border: 1px solid white;
   -webkit-transform: translateX(-500%);
           transform: translateX(-500%);
+  z-index: 500;
 }
 .side__menu .close {
   background-color: #1D2533;
@@ -34,15 +35,14 @@
   background-color: #6482b5;
 }
 .side__menu .close__line {
-  top: 50%;
+  top: 48%;
   background-color: white;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  /*             transform: translateY(-40%); */
   width: 60%;
   height: 2px;
   border-radius: 100px;
   position: absolute;
-  left: 7px;
+  left: 20%;
 }
 .side__menu .close__line_1 {
   -webkit-transform: rotate(45deg);

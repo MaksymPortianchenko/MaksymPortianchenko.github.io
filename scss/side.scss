@@ -9,6 +9,7 @@
     background-color: #1D2533;
     border: 1px solid white;
     transform: translateX(-500%);
+    z-index: 500;
     .close {
         background-color: #1D2533;
         width: 40px;
@@ -23,14 +24,14 @@
             background-color: #6482b5;
         }
         &__line {
-            top: 50%;
+            top: 48%;
             background-color: white;
-            transform: translateY(-50%);
+/*             transform: translateY(-40%); */
             width: 60%;
             height: 2px;
             border-radius: 100px;
             position: absolute;
-            left: 7px;
+            left: 20%;
             &_1 {
                 transform: rotate(45deg);
             }

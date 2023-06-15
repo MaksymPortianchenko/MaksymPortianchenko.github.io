@@ -1,0 +1,51 @@
+.hero {
+    height: 100vh;
+    overflow-y: hidden;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        gap: 30px;
+        transform: translateY(-50%);
+        
+    }
+    &__img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-100%, -50%);
+        display: block;
+        width: 40%;
+        z-index: -1;
+        height: auto;
+        animation-name: levitate;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    &__title {
+        text-align: right;
+    }
+    .circle {
+        display: block;
+        position: absolute;
+        width: 90vh;
+        height: 90vh;
+        border-radius: 100%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-100%, -50%);
+        background: #1B286B;
+        z-index: -2;
+    }
+    .circle2 {
+        width: 160vh;
+        height: 160vh;
+        background: #2D3847;
+        z-index: -3;
+        position: fixed;
+    }
+}

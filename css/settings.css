@@ -1,0 +1,15 @@
+.settings {
+  overflow: hidden;
+}
+.settings .settings__wrapper {
+  display: none;
+}
+.settings .form {
+  position: unset;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  margin: 60px auto 0 auto;
+}
+.settings .active {
+  display: block;
+}

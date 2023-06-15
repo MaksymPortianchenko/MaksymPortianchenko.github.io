@@ -1,0 +1,9 @@
+.components__banner {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.components .img1 {
+  height: 300px;
+}

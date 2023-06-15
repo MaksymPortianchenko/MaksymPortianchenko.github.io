@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="js/constants.js"></script>
+    <script src="js/local-storage.js"></script>
+    <title>Реєстрація</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="form">
+                <h2>Реєстрація нового користувача</h2>
+                <div class="input-container mt-15">
+                    <h4>Придумайте логін та пароль</h4>
+                    <label for="login">Логін</label>
+                    <input id="login" class="mt-10" type="text" placeholder="Придумайте логін" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Пароль</label>
+                    <input id="password" type="password" placeholder="Придумайте пароль" required>
+                </div>
+                <div class="input-container">
+                    <h4 class="mt-15">Напишіть ім'я та прізвище</h4>
+                    <label for="password">Ім'я</label>
+                    <input id="firstName" class="mt-10" type="text" placeholder="Ім'я" required>
+                </div>
+                <div class="input-container">
+                    <label for="lastName">Прізвище</label>
+                    <input id="lastName" type="text" placeholder="Прізвище" required>
+                </div>
+                <div class="input-container">
+                    <h4 class="mt-15">Оберіть sex</h4>
+                    <label for="password">Оберіть стать</label>
+                    <select class="mt-10" required placeholder="Оберіть стать">
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                    </select>
+                </div>
+                <button class="button mt-15" onclick="createUser()">
+                    Створити акаунт
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                    </svg>
+                </button>
+                <a href="login.html" class="sublink">Я вже маю акаунт</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/register.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

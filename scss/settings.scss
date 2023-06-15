@@ -1,0 +1,14 @@
+.settings {
+    overflow: hidden;
+    .settings__wrapper {
+        display: none;
+    }
+    .form {
+        position: unset;
+        transform: translate(0, 0);
+        margin: 60px auto 0 auto;
+    }
+    .active {
+        display: block;
+    }
+}

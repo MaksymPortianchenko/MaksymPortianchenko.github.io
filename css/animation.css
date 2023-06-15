@@ -1,0 +1,164 @@
+@-webkit-keyframes levitate {
+  0% {
+    -webkit-transform: translate(-100%, -50%);
+            transform: translate(-100%, -50%);
+  }
+  50% {
+    -webkit-transform: translate(-100%, calc(-50% - 20px));
+            transform: translate(-100%, calc(-50% - 20px));
+  }
+  100% {
+    -webkit-transform: translate(-100%, -50%);
+            transform: translate(-100%, -50%);
+  }
+}
+@keyframes levitate {
+  0% {
+    -webkit-transform: translate(-100%, -50%);
+            transform: translate(-100%, -50%);
+  }
+  50% {
+    -webkit-transform: translate(-100%, calc(-50% - 20px));
+            transform: translate(-100%, calc(-50% - 20px));
+  }
+  100% {
+    -webkit-transform: translate(-100%, -50%);
+            transform: translate(-100%, -50%);
+  }
+}
+@-webkit-keyframes hoverlink {
+  0% {
+    -webkit-transform: perspective(500px) rotateY(20deg);
+            transform: perspective(500px) rotateY(20deg);
+  }
+  25% {
+    -webkit-transform: perspective(500px) rotateY(0);
+            transform: perspective(500px) rotateY(0);
+  }
+  50% {
+    -webkit-transform: perspective(500px) rotateY(-20deg);
+            transform: perspective(500px) rotateY(-20deg);
+  }
+  75% {
+    -webkit-transform: perspective(500px) rotateY(0);
+            transform: perspective(500px) rotateY(0);
+  }
+  100% {
+    -webkit-transform: perspective(500px) rotateY(20deg);
+            transform: perspective(500px) rotateY(20deg);
+  }
+}
+@keyframes hoverlink {
+  0% {
+    -webkit-transform: perspective(500px) rotateY(20deg);
+            transform: perspective(500px) rotateY(20deg);
+  }
+  25% {
+    -webkit-transform: perspective(500px) rotateY(0);
+            transform: perspective(500px) rotateY(0);
+  }
+  50% {
+    -webkit-transform: perspective(500px) rotateY(-20deg);
+            transform: perspective(500px) rotateY(-20deg);
+  }
+  75% {
+    -webkit-transform: perspective(500px) rotateY(0);
+            transform: perspective(500px) rotateY(0);
+  }
+  100% {
+    -webkit-transform: perspective(500px) rotateY(20deg);
+            transform: perspective(500px) rotateY(20deg);
+  }
+}
+@-webkit-keyframes hoverlink2 {
+  0% {
+    -webkit-transform: perspective(500px) rotateY(0);
+            transform: perspective(500px) rotateY(0);
+  }
+  25% {
+    -webkit-transform: perspective(500px) rotateY(90deg);
+            transform: perspective(500px) rotateY(90deg);
+  }
+  50% {
+    -webkit-transform: perspective(500px) rotateY(180deg);
+            transform: perspective(500px) rotateY(180deg);
+  }
+  75% {
+    -webkit-transform: perspective(500px) rotateY(270deg);
+            transform: perspective(500px) rotateY(270deg);
+  }
+  100% {
+    -webkit-transform: perspective(500px) rotateY(360deg);
+            transform: perspective(500px) rotateY(360deg);
+  }
+}
+@keyframes hoverlink2 {
+  0% {
+    -webkit-transform: perspective(500px) rotateY(0);
+            transform: perspective(500px) rotateY(0);
+  }
+  25% {
+    -webkit-transform: perspective(500px) rotateY(90deg);
+            transform: perspective(500px) rotateY(90deg);
+  }
+  50% {
+    -webkit-transform: perspective(500px) rotateY(180deg);
+            transform: perspective(500px) rotateY(180deg);
+  }
+  75% {
+    -webkit-transform: perspective(500px) rotateY(270deg);
+            transform: perspective(500px) rotateY(270deg);
+  }
+  100% {
+    -webkit-transform: perspective(500px) rotateY(360deg);
+            transform: perspective(500px) rotateY(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes glowing {
+  0% {
+    -webkit-box-shadow: 0 0 10px 5px blue;
+            box-shadow: 0 0 10px 5px blue;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 20px 10px blue;
+            box-shadow: 0 0 20px 10px blue;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 10px 5px blue;
+            box-shadow: 0 0 10px 5px blue;
+  }
+}
+@keyframes glowing {
+  0% {
+    -webkit-box-shadow: 0 0 10px 5px blue;
+            box-shadow: 0 0 10px 5px blue;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 20px 10px blue;
+            box-shadow: 0 0 20px 10px blue;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 10px 5px blue;
+            box-shadow: 0 0 10px 5px blue;
+  }
+}

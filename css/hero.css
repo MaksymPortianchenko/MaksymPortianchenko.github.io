@@ -1,0 +1,64 @@
+.hero {
+  height: 100vh;
+  overflow-y: hidden;
+}
+.hero__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  gap: 30px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.hero__img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-100%, -50%);
+          transform: translate(-100%, -50%);
+  display: block;
+  width: 40%;
+  z-index: -1;
+  height: auto;
+  -webkit-animation-name: levitate;
+          animation-name: levitate;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.hero__title {
+  text-align: right;
+}
+.hero .circle {
+  display: block;
+  position: absolute;
+  width: 90vh;
+  height: 90vh;
+  border-radius: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-100%, -50%);
+          transform: translate(-100%, -50%);
+  background: #1B286B;
+  z-index: -2;
+}
+.hero .circle2 {
+  width: 160vh;
+  height: 160vh;
+  background: #2D3847;
+  z-index: -3;
+  position: fixed;
+}

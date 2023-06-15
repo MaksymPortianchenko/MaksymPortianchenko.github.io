@@ -1,0 +1,67 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+}
+header .logo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+header .logo:hover {
+  -webkit-animation-name: hoverlink2;
+          animation-name: hoverlink2;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+header .profile__link {
+  position: absolute;
+  text-decoration: none;
+  top: 30px;
+  right: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+header .profile__link:hover svg {
+  -webkit-animation-name: hoverlink2;
+          animation-name: hoverlink2;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+header .profile__link svg {
+  width: 40px;
+  height: 40px;
+}
+header .profile__link svg path {
+  fill: white;
+}
+header .profile__link .ava {
+  display: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+header .profile__link .ava img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
